@@ -137,7 +137,7 @@ end
 
 Representable has many more features and can literally parse and render any kind of document to an arbitrary Ruby object graph.
 
-Please check the [official documentation for more](http://trailblazer.to/2.1/docs/representable.html#representable-api).
+Please check the [official documentation for more](https://trailblazer.to/2.1/docs/representable.html#representable-api).
 
 
 ## Installation
@@ -172,4 +172,4 @@ Representable started as a heavily simplified fork of the ROXML gem. Big thanks 
 * Copyright (c) 2011-2020 Nick Sutterer <apotonick@gmail.com>
 * ROXML is Copyright (c) 2004-2009 Ben Woosley, Zak Mandhro and Anders Engstrom.
 
-Representable is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Representable is released under the [MIT License](https://www.opensource.org/licenses/MIT).
