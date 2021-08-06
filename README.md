@@ -10,12 +10,12 @@ Status](https://travis-ci.org/trailblazer/representable.svg)](https://travis-ci.
 
 In other words: Take an object and decorate it with a representer module. This will allow you to render a JSON, XML or YAML document from that object. But that's only half of it! You can also use representers to parse a document and create or populate an object.
 
-Representable is helpful for all kind of mappings, rendering and parsing workflows. However, it is mostly useful in API code. Are you planning to write a real REST API with representable? Then check out the [Roar](http://github.com/apotonick/roar) gem first, save work and time and make the world a better place instead.
+Representable is helpful for all kind of mappings, rendering and parsing workflows. However, it is mostly useful in API code. Are you planning to write a real REST API with representable? Then check out the [Roar](https://github.com/trailblazer/roar) gem first, save work and time and make the world a better place instead.
 
 
 ## Full Documentation
 
-Representable comes with a rich set of options and semantics for parsing and rendering documents. Its [full documentation](http://trailblazer.to/gems/representable/3.0/api.html) can be found on the Trailblazer site.
+Representable comes with a rich set of options and semantics for parsing and rendering documents. Its [full documentation](https://trailblazer.to/2.1/docs/representable.html) can be found on the Trailblazer site.
 
 ## Example
 
@@ -64,7 +64,7 @@ song = SongRepresenter.new(song).from_json(%{ {"title":"Roxanne"} })
 #=> #<Song title="Roxanne", track=nil>
 ```
 
-Note that parsing hashes per default does [require string keys](http://trailblazer.to/gems/representable/3.0/api.html#symbol-keys) and does _not_ pick up symbol keys.
+Note that parsing hashes per default does [require string keys](https://trailblazer.to/2.1/docs/representable.html#representable-api-symbol-keys) and does _not_ pick up symbol keys.
 
 
 ## Collections
@@ -137,7 +137,7 @@ end
 
 Representable has many more features and can literally parse and render any kind of document to an arbitrary Ruby object graph.
 
-Please check the [official documentation for more](http://trailblazer.to/gems/representable/).
+Please check the [official documentation for more](https://trailblazer.to/2.1/docs/representable.html#representable-api).
 
 
 ## Installation
@@ -172,4 +172,4 @@ Representable started as a heavily simplified fork of the ROXML gem. Big thanks 
 * Copyright (c) 2011-2020 Nick Sutterer <apotonick@gmail.com>
 * ROXML is Copyright (c) 2004-2009 Ben Woosley, Zak Mandhro and Anders Engstrom.
 
-Representable is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Representable is released under the [MIT License](https://www.opensource.org/licenses/MIT).
